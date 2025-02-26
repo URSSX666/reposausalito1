@@ -9,9 +9,11 @@ import Secciones.Menu.*;
 import java.awt.Color;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-
+import Pedido.Factura.tap1;
 
 public class Pedido extends javax.swing.JPanel {
+
+    tap1 tap1Panel = new tap1();
 
     public Pedido() {
         initComponents();
@@ -984,6 +986,7 @@ public class Pedido extends javax.swing.JPanel {
 
     private void BotonCarnesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonCarnesActionPerformed
         inicio(new Carnes());
+        tap1Panel.setVisible(true);
     }//GEN-LAST:event_BotonCarnesActionPerformed
 
     private void BotonDelchefActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonDelchefActionPerformed
