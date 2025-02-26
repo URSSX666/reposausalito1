@@ -17,6 +17,7 @@ import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import Pedido.Factura.tap1;
 /**
  *
  * @author Sofia Useche
